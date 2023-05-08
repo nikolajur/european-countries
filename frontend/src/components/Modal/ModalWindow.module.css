@@ -1,0 +1,67 @@
+.modal {
+  position: fixed;
+  width: 90%;
+  border-radius: 6px;
+  top: 20vh;
+  left: 5%;
+  background: #3c3c3c;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 2rem 1rem;
+  z-index: 1300;
+  text-align: center;
+}
+
+.modal h3,
+.modal p {
+  color: var(--color-white);
+  margin: 1.5rem auto;
+}
+
+.modal .konec {
+  font-size: 1.5rem;
+  color: var(--color-blue);
+}
+
+.modal p {
+  font-size: 1.6rem;
+}
+
+.modal a {
+  color: var(--color-white);
+  display: inline-block;
+  margin: 1rem auto 0.4rem auto;
+}
+
+.modal .country,
+.modal .capital {
+  font-size: 1.6rem;
+}
+
+.modal .population,
+.modal .area {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 445px) {
+  .modal {
+    width: 60%;
+    left: 20%;
+    padding: 2rem;
+  }
+
+  .modal .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal .country,
+  .modal .capital {
+    letter-spacing: 0.25rem;
+  }
+  .modal .population,
+  .modal .area {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,72 @@
+.button {
+  width: 100%;
+  padding: 0.6rem;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto 0.8rem auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-blue {
+  color: var(--color-blue);
+  border: 0.1rem solid var(--color-blue);
+  box-shadow: 0 0 3px transparent;
+}
+
+.btn-blue:focus {
+  outline: 0.25rem solid rgba(37, 189, 176, 0.6);
+  animation: pulse 2s infinite;
+}
+
+.btn-blue:hover {
+  background-color: var(--color-blue);
+  color: #1e1e1e;
+}
+
+.btn-blue:focus:hover {
+  outline: 0.1rem solid rgba(37, 189, 176, 0.1);
+}
+
+.btn-orange {
+  color: var(--color-orange);
+  border: 0.1rem solid var(--color-orange);
+}
+
+.btn-orange:focus {
+  outline: 0.25rem solid rgba(255, 165, 0, 0.6);
+  animation: pulse 2s infinite;
+}
+
+.btn-orange:hover {
+  background-color: var(--color-orange);
+  color: #1e1e1e;
+}
+.btn-orange:focus:hover {
+  outline: 0.1rem solid rgba(230, 95, 92, 0.1);
+}
+
+@keyframes pulse {
+  0% {
+    outline: 0.25rem solid inherit;
+    opacity: 0.9;
+  }
+  70% {
+    outline: 0.25rem solid transparent;
+  }
+
+  100% {
+    outline: 0.25rem solid inherit;
+    opacity: 0.9;
+  }
+}
+
+@media (min-width: 445px) {
+  .button {
+    width: 40%;
+    max-width: 15rem;
+    margin: 0 1rem 0.8rem 1rem;
+  }
+}

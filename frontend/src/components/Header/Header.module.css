@@ -1,0 +1,28 @@
+.header-container {
+  width: 100%;
+  margin: 2rem auto 1rem auto;
+}
+
+.header-container h1,
+.header-container h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.header-container h1 {
+  color: var(--color-blue);
+  margin-bottom: 0.5rem;
+}
+
+.header-container h2 {
+  padding: 0.25rem;
+}
+
+h2.default-text {
+  color: var(--color-white);
+}
+
+h2.country-name {
+  color: var(--color-grey-dark);
+  background-color: var(--color-blue);
+}

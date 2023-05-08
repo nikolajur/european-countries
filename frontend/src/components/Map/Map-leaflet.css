@@ -1,0 +1,19 @@
+.leflet-control {
+  pointer-events: none !important;
+}
+
+.leaflet-interactive {
+  cursor: default !important;
+}
+
+.leaflet-container {
+  background: transparent !important;
+}
+
+leaflet-popup-tip {
+  pointer-events: none !important;
+}
+
+.leaflet-tooltip.leaflet-interactive {
+  pointer-events: none !important;
+}

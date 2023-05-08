@@ -1,0 +1,29 @@
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.attribution svg {
+  margin-left: 0.25rem;
+}
+
+.popup {
+  position: absolute;
+  bottom: 2rem;
+  background-color: #181818;
+  opacity: 0.9;
+  z-index: 1100;
+  padding: 1rem;
+}
+
+.popup a,
+.popup p {
+  color: var(--color-white);
+  line-height: 2;
+  font-size: 0.8rem;
+  margin: 0;
+  display: inline;
+}

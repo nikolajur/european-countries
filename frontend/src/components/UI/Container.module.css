@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  height: 16rem;
+  margin: 0.5rem auto;
+  background-color: var(--color-grey-medium);
+}
+
+.buttons {
+  justify-content: space-between;
+}
+
+@media (min-width: 445px) {
+  .buttons {
+    flex-direction: row;
+  }
+}

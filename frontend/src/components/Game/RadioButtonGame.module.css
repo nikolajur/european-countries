@@ -1,0 +1,42 @@
+.form-radio {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flag-container {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-container input {
+  appearance: none;
+}
+
+.flag-container:focus {
+  outline: 0.2rem solid var(--color-grey-light);
+}
+
+.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  max-height: 80px;
+}
+
+.flag img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.flag .label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
